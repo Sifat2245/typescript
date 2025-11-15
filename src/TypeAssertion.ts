@@ -14,5 +14,7 @@ const kgToGm = (value: string | number): string | number | undefined => {
 const result1 = kgToGm(2) as number;
 const result2 = kgToGm("2 kg") as string;
 
+console.log(result1);
+
 
 
